@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Iframe</title>
-    <link rel="stylesheet" href="../CSS/STYLE.CSS">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="shortcut icon" href="ICON/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav class="links">
-        <a href="" target="tela"><img src="../IMAGE/logo-home.jpg" alt="logo-home"></a>
-        <a href="" target="tela"><img src="../IMAGE/logo-youtube.jpg" alt="logo-youtube"></a>
-        <a href="" target="tela"><img src="../IMAGE/logo-github.jpg" alt="logo-github"></a>
-        <a href="" target="tela"><img src="../IMAGE/logo-instagram.jpg" alt="logo-instagram"></a>
-        <a href="" target="tela"><img src="../IMAGE/logo-facebook.jpg" alt="logo-facebook"></a>
-    </nav>
+    <main>
+        <section class="celular">
+            <iframe src="HOME.HTML" frameborder="0" name="tela" id="tela"></iframe>
+        </section>
 
-    <div class="celular">
-        <iframe src="" frameborder="0" name="tela"></iframe>
-    </div>
+        <section id="links">
+            <a href="HOME.HTML" target="tela"><img src="../IMAGE/logo-home.jpg" alt="logo-home"></a><br>
+            <a href="YOUTUBE.HTML" target="tela" id="youtube"><img src="../IMAGE/logo-youtube.jpg" alt="logo-youtube"></a><br>
+            <a href="" target="tela"><img src="../IMAGE/logo-github.jpg" alt="logo-github"></a><br>
+            <a href="" target="tela"><img src="../IMAGE/logo-instagram.jpg" alt="logo-instagram"></a><br>
+            <a href="" target="tela"><img src="../IMAGE/logo-facebook.jpg" alt="logo-facebook"></a><br>
+        </section>
+    </main>
 </body>
 </html>
